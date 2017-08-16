@@ -1,0 +1,13 @@
+# Keep .gitkeep files.
+!.gitkeep
+
+# Wildcards
+*~
+~*
+
+# Mac
+.DS_Store
+
+# Node
+/node_modules
+/npm-*.log
