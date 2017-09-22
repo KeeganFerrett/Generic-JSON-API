@@ -4,4 +4,5 @@ Generic-JSON-API provides an inerfance to build valid JSON-API resoponses, witho
 
 ### Data Options
 * forceArray (Boolean)
-⋅⋅⋅ Used to indicate whether or not the resources in a data member should be force to be an array, even if no resources are given. Default = false.
+
+   Used to indicate whether or not the resources in a data member should be force to be an array, even if no resources are given. Default is false.
