@@ -39,8 +39,8 @@ Next you may want to add a resource. To do this, call the `resource(id, type)` f
 	resource.attribute({ name: "Bob" });
 	//OR
 	dataMember.resource("2", "person")
-				 .attribute({ name: "Alice" })
-				 .attribute({ email: "alice@email.com", votes: 3 });
+		 .attribute({ name: "Alice" })
+		 .attribute({ email: "alice@email.com", votes: 3 });
 ```
 The `attribute(object)` function can accept any input, provided its in a valid JSON object (arrays, nested objetcs, etc). For a full list of functions that the `resource` object provides, please see the full [wiki](https://github.com/KeeganFerrett/Generic-JSON-API/wiki).
 
