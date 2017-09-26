@@ -1,6 +1,6 @@
 {
   "name": "generic-json-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A generic JSON-API constructor.",
   "main": "./lib/JSON-API.js",
   "directories": {
