@@ -39,8 +39,8 @@ Next you may want to add a resource. To do this, call the `resource(id, type)` f
 	resource.attribute({ name: "Bob" });
 	//OR
 	dataMember.resource("2", "person")
-		 .attribute({ name: "Alice" })
-		 .attribute({ email: "alice@email.com", votes: 3 });
+		  .attribute({ name: "Alice" })
+		  .attribute({ email: "alice@email.com", votes: 3 });
 ```
 The `attribute(object)` function can accept any input, provided its in a valid JSON object (arrays, nested objetcs, etc). For a full list of functions that the `resource` object provides, please see the full [wiki](https://github.com/KeeganFerrett/Generic-JSON-API/wiki).
 
@@ -48,7 +48,7 @@ A meta member can be added to the `dataMember` object in a simpiler way as befor
 ```javascript
 	dataMember.meta()
 		  .attribute({ "copyright": "Copyright 2015 Example Corp." })
-    		  .attribute({ "authors": ["Yehuda Katz", "Steve Klabnik", "Dan Gebhardt", "Tyler Kellen"] });
+		  .attribute({ "authors": ["Yehuda Katz", "Steve Klabnik", "Dan Gebhardt", "Tyler Kellen"] });
 ```
 For a full list of functions that the `meta` object provides, please see the full [wiki](https://github.com/KeeganFerrett/Generic-JSON-API/wiki).
 The `data` object supports the rest of the standard top-level members (with the exception of error as per the json api specification), such as jsonapi, links, and included. Please see the [wiki](https://github.com/KeeganFerrett/Generic-JSON-API/wiki) for the full list.
