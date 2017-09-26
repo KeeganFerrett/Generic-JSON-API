@@ -1,8 +1,8 @@
 {
-  "name": "json-api-the-better-one-suck-it-ethan",
-  "version": "0.0.1",
-  "description": "A generic JSON-API constructor, that makes use of nomads.",
-  "main": "test.js",
+  "name": "generic-json-api",
+  "version": "0.0.3",
+  "description": "A generic JSON-API constructor.",
+  "main": "./lib/JSON-API.js",
   "directories": {
     "lib": "lib"
   },
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KeeganFerrett/JSON-API"
+    "url": "https://github.com/KeeganFerrett/Generic-JSON-API"
   },
   "keywords": [
     "JSON-API",
@@ -20,7 +20,5 @@
   ],
   "author": "Keegan Ferrett",
   "license": "ISC",
-  "dependencies": {
-    "debug": "^3.0.0"
-  }
+  "dependencies": {}
 }
