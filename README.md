@@ -47,8 +47,8 @@ The `attribute(object)` function can accept any input, provided its in a valid J
 A meta member can be added to the `dataMember` object in a simpiler way as before.
 ```javascript
 	dataMember.meta()
-		 .attribute({ "copyright": "Copyright 2015 Example Corp." })
-    		.attribute({ "authors": ["Yehuda Katz", "Steve Klabnik", "Dan Gebhardt", "Tyler Kellen"] });
+		  .attribute({ "copyright": "Copyright 2015 Example Corp." })
+    		  .attribute({ "authors": ["Yehuda Katz", "Steve Klabnik", "Dan Gebhardt", "Tyler Kellen"] });
 ```
 For a full list of functions that the `meta` object provides, please see the full [wiki](https://github.com/KeeganFerrett/Generic-JSON-API/wiki).
 The `data` object supports the rest of the standard top-level members (with the exception of error as per the json api specification), such as jsonapi, links, and included. Please see the [wiki](https://github.com/KeeganFerrett/Generic-JSON-API/wiki) for the full list.
