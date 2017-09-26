@@ -5,7 +5,8 @@ Generic-JSON-API provides an inerfance to build valid JSON-API resoponses, witho
 ## Usage
 Generic-JSON-API will one day provide functions to build the three top-level member objects. The module acts as a factory, providing the  functions to create objects to build each of the top level members. Currently, the only top member supported is `data`, but the remaining two will follow.
 
-```var JSONAPI = require('generic-json-api');
+```javascript
+	var JSONAPI = require('generic-json-api');
  
 	var dataMember = JSONAPI.newData();
 	
